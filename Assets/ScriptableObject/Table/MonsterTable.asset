@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ec38d067952443789028093e6daa951, type: 3}
+  m_Name: MonsterTable
+  m_EditorClassIdentifier: 
+  list:
+  - UID: 2000001
+    name: "\uC2A4\uCF08\uB808\uD1A4"
+    prefabPath: Enemy/Skeleton_Swordman
+    money: 25000
+    exp: 5
+    type: 0
+    ability:
+      hp: 100
+      attack: 10
+      defence: 5
+      critical: 0
+    attackRange: 2
+  - UID: 2000002
+    name: "\uC678\uB208\uB9C8\uBC95\uC0AC"
+    prefabPath: Enemy/OneEye
+    money: 15000
+    exp: 5
+    type: 1
+    ability:
+      hp: 50
+      attack: 20
+      defence: 1
+      critical: 0
+    attackRange: 5
